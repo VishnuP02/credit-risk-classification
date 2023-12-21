@@ -6,25 +6,29 @@ Resources used in completion of challenge:
 
                                             
                                             Credit Risk Analysis Report
-    Overview of the Analysis
-    The purpose of the analysis was conducted to asses how well machine learning model predicted credit risk. To determine 
-    whether a loan is likely to be a high risk (1) or a healthy loan(0), financial data pertaining to loan applications made 
-    up the data used. The loan amount, imterest rate, borrower income, debt-to-income ratio, number of accounts, negative credit
-    history, and overall debt were among the variables. Data preparation, model training, and evaluation were among the phases of 
-    the machine learning process that were engaged in the analysis.
+Overview of the Analysis
+The purpose of the analysis was conducted to asses how well machine learning model predicted credit risk. To determine 
+whether a loan is likely to be a high risk (1) or a healthy loan(0), financial data pertaining to loan applications made 
+up the data used. The loan amount, imterest rate, borrower income, debt-to-income ratio, number of accounts, negative credit
+history, and overall debt were among the variables. Data preparation, model training, and evaluation were among the phases of 
+the machine learning process that were engaged in the analysis.
+I used a logistic regression model as my main approach for machine learning. In addition, I resampled the training data using 
+the RandomOverSampler from the imbalanced-learn module to correct the class imbalance and improve model performance.
 
-    I used a logistic regression model as my main approach for machine learning. In addition, I resampled the training data using 
-    the RandomOverSampler from the imbalanced-learn module to correct the class imbalance and improve model performance.
-
-    Results
+Results
     - Machine Learning Model 1: Logistic Regression (Trained on Original Data)
-        - Balanced Accuracy Score:
-        - Precision for class 0(Healthy Loan):
-        - Recall for Class 1(High-Risk Loan):
-        - Recall for class 1:
+        - Balanced Accuracy Score: 95.2%
+        - Precision for class 0(Healthy Loan): 100%
+        - Recall for class 0: 99%
+        - Precision for class 1(High-Risk Loan): 85%
+        - Recall for class 1: 91%
     - Machine Learning Model 2: Logistic Regression (Trained with Resampled Data)
-        - Balanced Accuracy Score:
-        - Precision for class 0(Healthy Loan):
-        - Recall for Class 1(High-Risk Loan):
-        - Recall for class 1:
+        - Balanced Accuracy Score: 99.4%
+        - Precision for class 0: 100%
+        - Recall for class 0: 99%
+        - Precision for class 1: 84%
+        - Recall for class 1: 99%
+
+Summary
+
 
