@@ -4,7 +4,8 @@ activity from a peer-to-peer lending services company to build a model that can 
 Resources used in completion of challenge:
     - Lecture Slides, Class Recordings, Tutoring session w/ Mark Fullton, and AskBCS sessions with Ashwin Bhatnagar & Tristen Ortiz
 
-                                            Credit risk Analysis Report
+                                            
+                                            Credit Risk Analysis Report
     Overview of the Analysis
     The purpose of the analysis was conducted to asses how well machine learning model predicted credit risk. To determine 
     whether a loan is likely to be a high risk (1) or a healthy loan(0), financial data pertaining to loan applications made 
@@ -14,4 +15,16 @@ Resources used in completion of challenge:
 
     I used a logistic regression model as my main approach for machine learning. In addition, I resampled the training data using 
     the RandomOverSampler from the imbalanced-learn module to correct the class imbalance and improve model performance.
+
+    Results
+    - Machine Learning Model 1: Logistic Regression (Trained on Original Data)
+        - Balanced Accuracy Score:
+        - Precision for class 0(Healthy Loan):
+        - Recall for Class 1(High-Risk Loan):
+        - Recall for class 1:
+    - Machine Learning Model 2: Logistic Regression (Trained with Resampled Data)
+        - Balanced Accuracy Score:
+        - Precision for class 0(Healthy Loan):
+        - Recall for Class 1(High-Risk Loan):
+        - Recall for class 1:
 
