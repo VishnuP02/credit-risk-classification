@@ -46,3 +46,6 @@ Resources used in completion of challenge:
     advise utilizing the logistic regression model trained with resampled data (Model 2) for credit risk prediction.
 
 
+    
+
+
